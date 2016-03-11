@@ -1,13 +1,13 @@
 # laravel-push-notification
 
-Based off of https://github.com/davibennun/laravel-push-notification with support for Laravel 5 and 5.1.
+Based off of https://github.com/larkinwhitaker/laravel-push-notification.git  with support for Laravel 5.2. Currently testing 5.2 compatability.
 
 Installation
 ----
 
 Update your `composer.json` file to include this package as a dependency
 ```json
-"witty/laravel-push-notification": "dev-master"
+"thorne/laravel-push-notification": "dev-master"
 ```
 
 
