@@ -1,15 +1,15 @@
 <?php 
 
-namespace Witty\LaravelPushNotification;
+namespace Thorne\LaravelPushNotification;
 
 use Illuminate\Support\Facades\Config;
-use Witty\LaravelPushNotification\PushNotifier;
+use Thorne\LaravelPushNotification\PushNotifier;
 
 class PushNotificationBuilder 
 {
 	/**
 	 * @param mixed $platform_name
-	 * @return \Witty\LaravelPushNotification\PushNotifier
+	 * @return \Thorne\LaravelPushNotification\PushNotifier
 	 */
     public function app($platform_name)
     {

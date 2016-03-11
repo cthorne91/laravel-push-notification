@@ -1,6 +1,6 @@
 <?php 
 
-namespace Witty\LaravelPushNotification;
+namespace Thorne\LaravelPushNotification;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -13,7 +13,7 @@ class PushNotification extends Facade
     */
     protected static function getFacadeAccessor() 
     { 
-    	return 'push_notification'; 
+    	return 'push_notification_thorne'; 
     }
 
 }
