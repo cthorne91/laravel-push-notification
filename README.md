@@ -1,6 +1,6 @@
 # laravel-push-notification
 
-Based off of https://github.com/larkinwhitaker/laravel-push-notification.git  with support for Laravel 5.2. Currently testing 5.2 compatability.
+Based off of https://github.com/larkinwhitaker/laravel-push-notification.git  with support for Laravel 5.4. Currently testing 5.4 compatability.
 
 Installation
 ----
