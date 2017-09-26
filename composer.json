@@ -11,12 +11,22 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "5.0.* | 5.1.* | 5.2.* | 5.3.* | 5.4.*",
+        "illuminate/support": "5.0.* | 5.1.* | 5.2.* | 5.3.* | 5.4.* | 5.5.*",
         "sly/notification-pusher": "2.x"
     },
     "autoload": {
         "psr-0": {
             "Thorne\\LaravelPushNotification": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Thorne\\LaravelPushNotification\\PushNotificationServiceProvider"
+            ],
+            "aliases": {
+                "PushNotification": "Thorne\\LaravelPushNotification\\PushNotification"
+            }
         }
     },
     "minimum-stability": "stable"
